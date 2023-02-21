@@ -6,32 +6,24 @@
 #### Introduction
 This project analyzes user sentiment and advocacy towards animal fur on Reddit. We examined user comments on pro-fur and anti-fur subreddits to identify differences in the language used by each group. We also analyzed users' interactions in political subreddits to understand the relationship between political views and advocacy towards animal fur. Finally, we explored the relationship between users' gender and advocacy towards animal fur.
 
-##### 1. data_extraction.py
+##### 1. Reddit content Analysis [Comments extraction and visual].py
 
-This file is used to extract the comments from the pro-fur and anti-fur subreddits. It takes the following parameters:
+This file is used to extract the comments from the pro-fur and anti-fur subreddits as well as it calculates the word frequency of the comments in the pro-fur and anti-fur subreddits.
+It takes the following parameters:
 subreddit_name: The name of the subreddit to be analyzed.
 post_count: The number of posts to be analyzed.
 comment_count: The number of comments to be analyzed per post.
 
-##### 2. word_frequency.py
 
-This file is used to calculate the word frequency of the comments in the pro-fur and anti-fur subreddits. It takes the following parameters:
-subreddit_name: The name of the subreddit to be analyzed.
+##### 2. Finding_User_interests.ipynb
+
+This file is used to analyze the political views of Reddit users. It also takes the following parameters predict the gender and interests of Reddit users.
+The code categorizes the users as either liberal, conservative, or unidentified based on their political engagement. The categorization is done by counting the number of comments a user made in each of the political subreddits and comparing it to a threshold value. If the user has made more comments in subreddits that are classified as liberal or conservative, they are categorized accordingly. If they have not interacted enough in these subreddits, they are classified as unidentified.
+It takes the following parameters:
+subreddit_name: The name of the subreddit to be analyzed. ex r/conservative, r/liberal, r/womenrights, r/askmen
 post_count: The number of posts to be analyzed.
 comment_count: The number of comments to be analyzed per post.
 
-3. gender_interest.py
-
-This file is used to predict the gender and interests of Reddit users. It takes the following parameters:
-subreddit_name: The name of the subreddit to be analyzed.
-post_count: The number of posts to be analyzed.
-comment_count: The number of comments to be analyzed per post.
-4. political_analysis.py
-
-This file is used to analyze the political views of Reddit users. It takes the following parameters:
-subreddit_name: The name of the subreddit to be analyzed.
-post_count: The number of posts to be analyzed.
-comment_count: The number of comments to be analyzed per post.
 
 #### Results
 
