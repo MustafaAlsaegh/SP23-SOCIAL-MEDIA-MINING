@@ -1,7 +1,12 @@
 ## Social Media Mining 
 
 
-### Content Analysis [Fur or Faux?] Explanatory Approach for Pro- and Anti-fur users in Reddit.
+### Content Analysis [Fur or Faux?] 🐾🧥
+Explanatory Approach for Pro- and Anti-fur users in Reddit.
+
+#### Abstract
+In recent years, the use of animal fur in the fashion industry has become a topic of increasing concern among animal welfare advocates and the general public.This issue gained widespread attention in Jan 2023 when reality TV star  Kylie Jenner wore a dress made from lion fur, sparking public frustration and renewed calls for a ban on the use of animal fur in fashion. While some argue that using fur is a necessary part of the fashion industry, others point to the inhumane treatment of animals in the fur industry and call for a more ethical and sustainable approach to fashion. In this context, the analysis of user comments and interactions on social media platforms like Reddit can provide valuable insights into the public's opinions and attitudes towards animal fur in fashion. 
+
 
 #### Introduction
 This project analyzes user sentiment and advocacy towards animal fur on Reddit. We examined user comments on pro-fur and anti-fur subreddits to identify differences in the language used by each group. We also analyzed users' interactions in political subreddits to understand the relationship between political views and advocacy towards animal fur. Finally, we explored the relationship between users' gender and advocacy towards animal fur.
