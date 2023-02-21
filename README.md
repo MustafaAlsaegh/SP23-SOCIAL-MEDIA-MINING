@@ -14,19 +14,28 @@ This project analyzes user sentiment and advocacy towards animal fur on Reddit. 
 ##### 1. Reddit content Analysis [Comments extraction and visual].py
 
 This file is used to extract the comments from the pro-fur and anti-fur subreddits as well as it calculates the word frequency of the comments in the pro-fur and anti-fur subreddits.
+
 It takes the following parameters:
+
 subreddit_name: The name of the subreddit to be analyzed.
+
 post_count: The number of posts to be analyzed.
+
 comment_count: The number of comments to be analyzed per post.
 
+![Screen Shot 2023-02-20 at 10 21 24 PM](https://user-images.githubusercontent.com/96810312/220239385-20492c92-1f70-4e4a-8e17-782bea05c325.png)
 
 ##### 2. Finding_User_interests.ipynb
 
 This file is used to analyze the political views of Reddit users. It also takes the following parameters predict the gender and interests of Reddit users.
 The code categorizes the users as either liberal, conservative, or unidentified based on their political engagement. The categorization is done by counting the number of comments a user made in each of the political subreddits and comparing it to a threshold value. If the user has made more comments in subreddits that are classified as liberal or conservative, they are categorized accordingly. If they have not interacted enough in these subreddits, they are classified as unidentified.
+
 It takes the following parameters:
+
 subreddit_name: The name of the subreddit to be analyzed. ex r/conservative, r/liberal, r/womenrights, r/askmen
+
 post_count: The number of posts to be analyzed.
+
 comment_count: The number of comments to be analyzed per post.
 
 
