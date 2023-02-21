@@ -34,9 +34,10 @@ It takes the following parameters:
 
 subreddit_name: The name of the subreddit to be analyzed. ex r/conservative, r/liberal, r/womenrights, r/askmen
 
-post_count: The number of posts to be analyzed.
+post_count, comment_count: if user has >10 interations in the defined subreddits, then the code classify them.
 
-comment_count: The number of comments to be analyzed per post.
+![Screen Shot 2023-02-20 at 10 24 00 PM](https://user-images.githubusercontent.com/96810312/220239662-c16b8437-ef9c-4650-bee5-70ea3eb776c4.png)
+
 
 
 #### Results
